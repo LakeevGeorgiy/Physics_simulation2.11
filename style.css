@@ -1,0 +1,54 @@
+h1 {
+    color: blue;
+    font-size: xx-large;
+}
+
+label {
+    color: black;
+    font-size: 16px;
+}
+
+.input {
+    margin-top: 10px;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 10px;
+    width: 80px;
+}
+
+.input-1 {
+    margin-left: 148px;
+}
+
+.input-2 {
+    margin-left: 40px;
+}
+
+.input-3 {
+    margin-left: 18px;
+}
+
+.input-4 {
+    margin-left: 42px;
+}
+
+.input-5 {
+    margin-left: 147px;
+}
+
+.input-6 {
+    margin-left: 15px;
+}
+
+button {
+    color: blue;
+    margin-left: 120px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 12px;
+}

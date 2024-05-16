@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание после лекции</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Интерференционная картина колец Ньютона</h1>
+    <div>
+        <label>Радиус линзы, м<label> 
+        <input value="1" class="input input-1" type="number" id="lens_curvature_radius_id">
+    </div>
+    <div>
+        <label>Показатель преломления линзы</label>
+        <input value="2" class="input input-2" type="number" id="refractive_index_lens_id"/>
+    </div>
+    <div>
+        <label>Показатель преломления пластины</label>
+        <input value="3" class="input input-3" type="number" id="refractive_index_plate_id" />
+    </div>
+    <div>
+        <label>Показатель преломления среды</label>
+        <input value="1" class="input input-4" type="number" id="refractive_index_env_id" />
+    </div>
+    <div>
+        <label>Длина волны, нм</label>
+        <input value="546" class="input input-5" type="number" id="wave_length_id" />
+    </div>
+    <div>
+        <label>Полная интенсивность света, Вт/м^2</label>
+        <input value="5" class="input input-6" type="number" id="intensity_id" />
+    </div>
+    <div>
+        <button id="button_id">Построить</button>
+    </div>
+    <div id="tester2"></div>
+    <canvas width="600" height="600" id="canvas_id">
+
+    <script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
+    <script src="main.js"></script>
+</body>
+</html>
